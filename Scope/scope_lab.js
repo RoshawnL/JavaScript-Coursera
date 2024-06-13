@@ -29,6 +29,23 @@ function show(){
     }
     show();
     
-    console.log(functionVar); // Throws ReferenceError
-    console.log(functionLet); // Throws ReferenceError
-    console.log(functionConst); // Throws ReferenceError
+    // console.log(functionVar); // Throws ReferenceError
+    // console.log(functionLet); // Throws ReferenceError
+    // console.log(functionConst); // Throws ReferenceError
+
+
+{
+    var testVar = "Block var for practice"
+    let testLet = "Block let for practice"
+    const testConst = "Block const for practice"
+}
+    
+
+testVar = "Reassigned test var"
+testLet = "Reassigned test let"
+testConst = "Reassigned test const"
+
+
+console.log(testVar); // Output: "Block var for practice"
+console.log(testLet); // Output: "Block let for practice"
+console.log(testConst); // Output: "Block const for practice"
