@@ -11,7 +11,7 @@ function calculateArea() {
     document.getElementById('result').innerText = `The area of the rectangle is: ${area}`;
    }
 
-
+//practice exercise
 function calculateGrocerySum() {
     grocery1 = parseFloat(document.getElementById('grocery1').value);
     grocery2 = parseFloat(document.getElementById('grocery2').value);

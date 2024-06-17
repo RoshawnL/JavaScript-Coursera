@@ -21,7 +21,7 @@ function checkCountValue() {
     }
   }
 
-
+//practice exercise
 function resetCount() {
     count = 0; // Increment the count by 1
     displayCount(); // Display the count
